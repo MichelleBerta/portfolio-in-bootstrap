@@ -1,88 +1,133 @@
 * {
-    font-family: "Patrick Hand", cursive;
-    --purple: #a565e0;
-    --charcoal: #39373b;
-    --mint: #46f2db;
-    --light: #f8f9fa;
-    --pink: #f1d4f1;
-    --yellow: #f5f3bf;
-  }
-  
-  body {
-    background-color: var(--pink);
-  }
-  
-  .nav {
-      background-color: var(--purple);
-      color: var(--light);
-  }
+  font-family: "Patrick Hand", cursive;
+  --purple: #a565e0;
+  --charcoal: #39373b;
+  --mint: #46f2db;
+  --light: #f8f9fa;
+  --pink: #f1d4f1;
+  --yellow: #f5f3bf;
+}
 
-  .active {
-      background-color: var(--mint);
-  }
+body {
+  background-color: var(--charcoal);
+  font-size: 2rem;
+}
 
+.nav {
+  background-color: var(--charcoal);
+}
+
+.nav-link {
+  color: var(--mint);
+}
+
+.active {
+  background-color: var(--mint);
+  font-size: 2rem;
+}
+
+h1::before {
+  content: " 👋 ";
+}
+
+h1 {
+  transform: rotate(-8deg);
+  font-family: "Pacifico", cursive;
+  color: var(--mint);
+  margin-top: 4%;
+  font-size: 2rem;
+  margin-left: 48%;
+}
+
+h3 {
+  color: var(--mint);
+  font-size: 2rem;
+}
+
+.skills {
+  color: var(--mint);
+  font-size: 2rem;
+  margin-top: 14%;
+  margin-left: -45%;
+}
+
+.card,
+.h-100 {
+  color: var(--purple)
+}
 
 /* Row 1 of workspace images */
 #left-books {
-    max-width: 13%;
-    margin-top: 5%;
-    margin-left: -40%;
-  }
-  
-  #magnifying-glass {
-    max-width: 35%;
-    margin-left: 62%;
-    margin-top: -43%;
-  }
-  
-  #Beethoven {
-    max-width: 50%;
-    margin-left: 14%;
-    margin-top: 0%;
-  }
-  
-  #plant {
-    max-width: 38%;
-    margin-bottom: -17%;
-  }
-  
-  #right-books {
-    max-width: 24%;
-    margin-left: 72%;
-    margin-top: -147%;
-  }
-  
-  /* Row 2 of workspace images */
-  #left-monitor {
-    max-width: 83%;
-    margin-top: 23%;
-  }
-  
-  #right-monitor {
-    max-width: 83%;
-    margin-top: 24%;
-    margin-right: 10%;
-  }
-  
-  #mouse {
-    max-width: 11%;
-  }
-  
-  /* Row 3 of workspace images */
-  #pug {
-    max-width: 50%;
-    margin-top: 30%;
-  }
-  
-  
-  #headshot {
-    display: block;
-    max-width: 50%;
-  }
+  max-width: 45%;
+  margin-left: -35%;
+}
 
-  /* DARK MODE */
+#magnifying-glass {
+  max-width: 16%;
+  margin-left: -14%;
+  margin-top: 7%;
+}
+
+#Beethoven {
+  max-width: 41%;
+  margin-left: -50%;
+}
+
+#plant {
+  max-width: 28%;
+  margin-left: -47%;
+}
+
+#right-books {
+  max-width: 45%;
+  margin-left: -11%;
+}
+
+/* Row 2 of workspace images */
+
+#lamp {
+  max-width: 50%;
+  margin-top: -129%;
+  margin-left: 50%;
+}
+
+#left-monitor {
+  max-width: 69%;
+  margin-top: -101%;
+  margin-left: 30%;
+}
+
+#right-monitor {
+  max-width: 69%;
+  margin-top: -96%;
+  margin-left: 30%;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+#mouse {
+  max-width: 11%;
+  margin-top: -60%;
+  margin-left: 88%;
+}
+
+/* Row 3 of workspace images */
+#pug {
+  max-width: 7%;
+  margin-left: 90%;
+}
+
+#headshot {
+  display: block;
+  max-width: 50%;
+}
+
+/* DARK MODE */
 .dark {
-    background-color: var(--charcoal);
+  background-color: var(--charcoal);
 }
 
 .dark h1,
