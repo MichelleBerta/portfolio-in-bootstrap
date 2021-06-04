@@ -1,0 +1,99 @@
+* {
+    font-family: "Patrick Hand", cursive;
+    --purple: #a565e0;
+    --charcoal: #39373b;
+    --mint: #46f2db;
+    --light: #f8f9fa;
+    --pink: #f1d4f1;
+    --yellow: #f5f3bf;
+  }
+  
+  body {
+    background-color: var(--pink);
+  }
+  
+  .nav {
+      background-color: var(--purple);
+      color: var(--light);
+  }
+
+  .active {
+      background-color: var(--mint);
+  }
+
+
+/* Row 1 of workspace images */
+#left-books {
+    max-width: 13%;
+    margin-top: 5%;
+    margin-left: -40%;
+  }
+  
+  #magnifying-glass {
+    max-width: 35%;
+    margin-left: 62%;
+    margin-top: -43%;
+  }
+  
+  #Beethoven {
+    max-width: 50%;
+    margin-left: 14%;
+    margin-top: 0%;
+  }
+  
+  #plant {
+    max-width: 38%;
+    margin-bottom: -17%;
+  }
+  
+  #right-books {
+    max-width: 24%;
+    margin-left: 72%;
+    margin-top: -147%;
+  }
+  
+  /* Row 2 of workspace images */
+  #left-monitor {
+    max-width: 83%;
+    margin-top: 23%;
+  }
+  
+  #right-monitor {
+    max-width: 83%;
+    margin-top: 24%;
+    margin-right: 10%;
+  }
+  
+  #mouse {
+    max-width: 11%;
+  }
+  
+  /* Row 3 of workspace images */
+  #pug {
+    max-width: 50%;
+    margin-top: 30%;
+  }
+  
+  /* #workspace {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+  } */
+  
+  #headshot {
+    max-width: 30%;
+    display: block;
+    padding-top: 50px;
+  }
+
+  /* DARK MODE */
+.dark {
+    background-color: var(--charcoal);
+}
+
+.dark h1,
+.dark h3,
+.dark .card,
+.dark .card-title {
+  color: var(--mint);
+}
