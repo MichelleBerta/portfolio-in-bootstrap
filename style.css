@@ -74,16 +74,10 @@
     margin-top: 30%;
   }
   
-  /* #workspace {
-    max-width: 100%;
-    display: block;
-    margin: auto;
-  } */
   
   #headshot {
-    max-width: 30%;
     display: block;
-    padding-top: 50px;
+    max-width: 50%;
   }
 
   /* DARK MODE */

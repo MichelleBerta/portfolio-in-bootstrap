@@ -1,11 +1,6 @@
-$(document).ready(function () {
-  $(".carousel").carousel();
-  $(".materialboxed").materialbox();
-  $(".collapsible").collapsible();
-  $(".dropdown-trigger").dropdown();
-  $(".sidenav").sidenav();
-  $(".modal").modal();
-});
+
+
+var myModal = new bootstrap.Modal(document.getElementById('myModal'), options)
 
 // Access toggle switch HTML element
 var themeSwitcher = document.querySelector("#theme-switcher");
